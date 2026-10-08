@@ -7,11 +7,6 @@ import java.sql.*;
 import java.util.List;
 
 public class animeService {
-    private static final String URL = "jdbc:sqlite:model.anime.db";
-
-    private Connection getConnection() throws SQLException {
-        return DriverManager.getConnection(URL);
-    }
 
 
     public static void insertar(anime Anime) {
